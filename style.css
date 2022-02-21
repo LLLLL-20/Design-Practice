@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    color: white;
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro .content {
+    height: 300px;
+    margin: 80px;
+    display: flex;
+    gap: 40px;
+}
+
+.content .container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.intro button {
+    height: 50px;
+    width: 100px;
+}
+
+.content .img {
+    background-image: url('./img/pexels-anni-roenkae-2693212.jpg');
+    width: 400px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .container {
+    display: flex;
+    padding: 10px;
+}
+
+.info .content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.quote {
+    color: black;
+    background-color: #E5E7EB;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.signUp {
+    color: white;
+    background-color: #3882F6;
+    flex: 1;
+    display: flex;
+}
+
+.signUp .content {
+    flex: 1;
+    display: flex;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
