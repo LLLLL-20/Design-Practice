@@ -16,10 +16,16 @@ body {
     flex-direction: column;
 }
 
-.header {
-    margin: 10px;
+.intro .header {
+    margin: 10px 230px;
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .header ul {
@@ -36,29 +42,41 @@ body {
 }
 
 .intro .content {
-    height: 300px;
-    margin: 80px;
+    height: 330px;
+    margin: 80px 230px;
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
 }
 
-.content .container {
-    width: 400px;
+.intro .container {
+    width: 500px;
     display: flex;
     flex-direction: column;
-    flex: auto;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.intro h2 {
+    margin: 0;
+    font-size: 68px;
+    font-weight: 1000;
+}
+
+.intro p {
+    margin: 0;
+    font-size: 28px;
 }
 
 .intro button {
-    height: 50px;
-    width: 100px;
+    padding: 5px;
+    height: 30px;
+    width: 80px;
 }
 
-.content .img {
+.intro .img {
     background-image: url('./img/pexels-anni-roenkae-2693212.jpg');
-    width: 400px;
+    width: 800px;
     display: flex;
-    flex: auto;
     justify-content: center;
     align-items: center;
 }
@@ -92,20 +110,22 @@ body {
 
 .signUp {
     color: white;
-    background-color: #3882F6;
     flex: 1;
     display: flex;
+    padding: 50px;
 }
 
 .signUp .content {
+    background-color: #3882F6;
     flex: 1;
     display: flex;
+    justify-content: space-around;
 }
 
 .footer {
     color: white;
     background-color: #1F2937;
-    flex: 1;
+    flex: 0 1 0;
     display: flex;
     justify-content: center;
     align-items: center;
